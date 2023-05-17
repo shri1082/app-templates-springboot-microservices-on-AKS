@@ -23,7 +23,7 @@ on:
       - '*.png'
 
 env:
-  LOCATION: 'eastus'
+  LOCATION: 'eastus2'
   HUB_VNET: 'hub-vnet'
   HUB_RG: 'petclinic-hub-eastus'
   SPOKE_RG: 'petclinic-spoke-eastus'
