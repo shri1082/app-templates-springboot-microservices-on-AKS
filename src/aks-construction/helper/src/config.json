@@ -9,7 +9,7 @@
     "defaults": {
         "deploy": {
             "kubernetesVersion": "1.21.9",
-            "location": "WestEurope",
+            "location": "eastus",
             "apiips": "",
             "demoapp": false,
             "disablePreviews": false,
