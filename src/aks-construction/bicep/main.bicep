@@ -759,7 +759,7 @@ output ApplicationGatewayName string = deployAppGw ? appgw.name : ''
 param dnsPrefix string = '${resourceName}-dns'
 
 @description('Kubernetes Version')
-param kubernetesVersion string = '1.23.12'
+param kubernetesVersion string = '1.26.3'
 
 @description('Enable Azure AD integration on AKS')
 param enable_aad bool = false
@@ -1004,7 +1004,7 @@ var aks_addons = {
     //    identity: {
     //      clientId: 'xxx',
     //      objectId: 'xxx',
-    //      resourceId: '/subscriptions/95efa97a-9b5d-4f74-9f75-a3396e23344d/resourcegroups/xxx/providers/Microsoft.ManagedIdentity/userAssignedIdentities/xxx'
+    //      resourceId: '/subscriptions/adc4f7b6-bd9d-4353-b398-5954b14fcabd/resourcegroups/xxx/providers/Microsoft.ManagedIdentity/userAssignedIdentities/xxx'
     //    }
   }
   azurepolicy: {
