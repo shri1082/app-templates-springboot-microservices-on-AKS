@@ -8,7 +8,7 @@
     },
     "defaults": {
         "deploy": {
-            "kubernetesVersion": "1.21.9",
+            "kubernetesVersion": "1.26.3",
             "location": "eastus",
             "apiips": "",
             "demoapp": false,
