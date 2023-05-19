@@ -923,7 +923,7 @@ var systemPoolPresets = {
     availabilityZones: []
   }
   Standard : {
-    vmSize: 'Standard_DS2_v2'
+    vmSize: 'Standard_DS3_v2'
     count: 3
     minCount: 3
     maxCount: 5
